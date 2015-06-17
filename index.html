@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Carpeta de Trabajo Koebner</title>
+		<meta name="description" content="Sistema de slides con el Js beta dragdealer" />
+		<meta name="keywords" content="draggable, slideshow, fullscreen, carousel, views, zoomed, 3d transform, perspective, dragdealer" />
+		<meta name="author" content="Koebner" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Nixie+One|Codystar|Limelight|Special+Elite|Playball' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/Manual.css" />
+		<link rel="stylesheet" type="text/css" href="css/dragdealer.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://koebner.deviantart.com/"><span>Devian Art</span></a>
+				<span class="right"><a class="codrops-icon " href="https://www.facebook.com/isaac.marquina.3"><span>Contacto FaceBook</span></a></span>
+			</div>
+			<header id="header" class="codrops-header">
+				<h1>Portafolio 2014</h1>
+				<span class="message">Modo Mobile no tiene habilitado el Slide</span>
+				<button class="slider-switch">Cambiar Vista</button>
+			</header>
+			<div id="overlay" class="overlay">
+				<div class="info">
+					<h2>Manual De interaccion</h2>
+					<span class="info-drag">Desliza con el dedo</span>
+					<span class="info-keys">Usa las teclas de direccion</span>
+					<span class="info-switch">Icono de cambiar vista</span>
+					<button>Entendido!</button>	
+				</div>
+			</div>
+			<div id="slideshow" class="dragslider">
+				<section class="img-dragger img-dragger-large dragdealer">
+					<div class="handle">
+						<div class="slide" data-content="content-1">
+							<div class="img-wrap"><img src="img/1.png" alt="img1"/></div>
+							<h2>Koebner<span>Identidad Corporativa Freelance</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<div class="slide" data-content="content-1b">
+							<div class="img-wrap"><img src="img/2.png" alt="img1"/></div>
+							<h2>Mujer Amazona<span>Illustrator</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<div class="slide" data-content="content-1c">
+							<div class="img-wrap"><img src="img/3.png" alt="img1"/></div>
+							<h2>Hombre Desconocido<span>En una sola capa en Ps</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<div class="slide" data-content="content-2">
+							<div class="img-wrap"><img src="img/4.png" alt="img2"/></div>
+							<h2>Tecnica Puntillismo<span>El bueno</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<div class="slide" data-content="content-3">
+							<div class="img-wrap"><img src="img/5.png" alt="img3"/></div>
+							<h2>Jirafa<span>Caricatura apoyandose en una fabula</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<div class="slide" data-content="content-4">
+							<div class="img-wrap"><img src="img/6.png" alt="img4"/></div>
+							<h2>Ajolote<span>Proyecto de TID, UAM-xoc</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<div class="slide" data-content="content-5">
+							<div class="img-wrap"><img src="img/7.png" alt="img5"/></div>
+							<h2>Chinita Kawai<span>Genero Kawaii(Japon)</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<div class="slide" data-content="content-6">
+							<div class="img-wrap"><img src="img/8.png" alt="img6"/></div>
+							<h2>Abstraccion<span>Zentangulos</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<div class="slide" data-content="content-7">
+							<div class="img-wrap"><img src="img/9.png" alt="img6"/></div>
+							<h2>Urano<span>Ilustracion base textura</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<!-- <div class="slide" data-content="content-7">
+							<div class="img-wrap"><img src="img/7.png" alt="img7"/></div>
+							<h2>Kale <i>&amp;</i> Karen <span>Only kale could make her happy</span></h2>
+							<button class="content-switch">Leer</button>
+						</div>
+						<div class="slide" data-content="content-8">
+							<div class="img-wrap"><img src="img/8.png" alt="img8"/></div>
+							<h2>Happiness <span>On self-sufficient homes and pets</span></h2>
+							<button class="content-switch">Leer</button>
+						</div> -->
+					</div>
+				</section><!-- /img-dragger-->
+				<!-- Content section -->
+				<section class="pages">
+					<div class="content" data-content="content-1">
+						<h2>Koebner <span>Identidad Corporativa</span></h2>
+						<p>Me encanta hacer este tipo de pruebas, sin embargo me falta mucho por explorar, el mundo de logotipos esta hecho de algo muy complejo, se llama recursos y el gran poder de indagacion que esto conlleva.</p>
+									<p>Es por eso que lo he intentado, recomiendo enormemente trabajar con logotipos y mas por su identidad personal que es lo que dejara huella en sus trabajos,</p>
+									<p>los libros mas recomendados son Love, Design Logo, si van por la vida diseñando logotipos este es un "must read".</p>
+						<p class="related">
+							Libros recomendados<a href="http://www.amazon.com/Logo-Design-Love-Creating-Identities/dp/0321660765/ref=sr_1_1?ie=UTF8&qid=1404190360&sr=8-1&keywords=love+design+logo">Utiles para este trabajo</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-1b">
+						<h2> Mujer Amazona<span>Ilustracion con intenciones vectoriales</span></h2>
+						<p>Pues que tengo que decir sobre estom empeze la idea por que me encanto la ilustracion la hice como un proyecto para el profesor Tame.</p>
+									<p>Pero me gusto tanto que pense que iba a desperdiciar estando solo en acuarela aparte, de que soy muy malo aplicando color asi que me dedique un poco a ella.</p>
+									<p>Hice todo lo necesareo para pasarla a vectores, desde volver a hacerla, desde un estilografo hasta el escanner.</p>
+						<p class="related">
+							Libros recomendados<a href="http://www.amazon.com/Steal-Like-Artist-Things-Creative/dp/0761169253/ref=sr_1_1?ie=UTF8&qid=1404191004&sr=8-1&keywords=steal+like+and+artist">Utiles para este trabajo</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-1c">
+						<h2>Hombre desconocido <span>Imaginacion solamente</span></h2>
+						<p>Un dia desperte asustado por que de repente me vi como este hombre, desolado, mayor, sin descendencia, y maldito.</p>
+									<p>Enseguida de esto, agarre mi tableta y lo empeze a dibujar tal cual no se por que me salio como lo soñe fue algo muy raro de mi parte.</p>
+									<p>Lo mas increible de todo es que lo tome de la nada y sin embargo sin mucha practica en la tableta solo empeze a trazar pincelada tras pincelada, y este fue el resultado.</p>
+						<p class="related">
+							Libros recomendados<a href="http://www.amazon.com/gp/product/0399162089/ref=ox_sc_sfl_title_5?ie=UTF8&psc=1&smid=ATVPDKIKX0DER">Utiles para este trabajo</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-2">
+						<h2>El Bueno <span>Tecnica de puntillismo</span></h2>
+						<p>Blondy era un tipo recio y muy bueno con la pistola, era una leyenda desconocida que jamas supimos sus limites, siempre fue uno de los mejores y no por sus habilidades si no por su gran misterio, su vestimenta y su casi callada apariencia.</p>
+						<p>Termine haciendo este proyecto en serigrafia, con la tecnica de puntillismo, obviamente necesita mucho mejor trabajo pero la silueta me encanta y deja bien marcado que este tipo es el emblematico personaje "el bueno", de la gran cinta que sirvio de inspiracion a Tarantino.</p>
+						<p>Me encanta y lo guardo con mucho cariño pues sirvio de pauta para seguir conociendo mas tecnicas en el camino de mi carrera.</p>
+						<p class="related">
+						Libros recomendados<a href="http://www.amazon.com/gp/product/1933492961/ref=ox_sc_sfl_title_6?ie=UTF8&psc=1&smid=ATVPDKIKX0DER">Utiles para este trabajo</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-3">
+						<h2>Jirafa<span>Caricatura y vectores</span></h2>
+						<p>Esta ilustracion es una prueba, pues estaba haciendo personajes de caricatura y la verdad no sabia que hacer asi que recurri a las fabulas para dibujar animalitos como personitas, lo cual me vino a la mente que esta jirafa podria ser buena idea.</p>
+						<p>La verdad tiene muchos errores pues lo trace con solo el lapiz de ilustrator y no con la herramienta pluma como debe de ser.</p>
+						<p>Pero aun asi marca una pauta muy buena de mi vida culminando asi lo ultimos trimestres de mi carrera</p>
+						<p class="related">
+						Libros recomendados<a href="http://www.amazon.com/gp/product/0740797719/ref=ox_sc_sfl_title_7?ie=UTF8&psc=1&smid=ATVPDKIKX0DER">Utiles para este trabajo</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-4">
+						<h2>Axolotl<span>Proyecto a principios de la carrera</span></h2>
+						<p>Este dibujito es uno de los mas viejos de mi carrera, y conlleva uno de los mejores recuerdos de la misma, aqui este animalito que tiene muchisimas propiedad interesantes nos hizo que investigaramos hasta por debajo de las piedras su origen y sus capacidades.</p>
+						<p>Otro de los aspectos mas divertidos es que fue en el equipo del TID, donde era un equipo multidisciplinario lo cual combinamos todas nuestras aspiraciones.</p>
+						<p>La peor vectorizacion jamas hecha por mi he aqui el resultado.</p>
+						<p class="related">
+						Libros recomendados<a href="http://www.amazon.com/Framed-Ink-Drawing-Composition-Storytellers/dp/1933492953/ref=pd_sim_b_3?ie=UTF8&refRID=122CY48WY7Y9RP2NDS97">Utiles para este trabajo</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-5">
+						<h2>Dibujo Kawaii <span>Genero Japones</span></h2>
+						<p>Este dibujo solo fue una prueba de ilustraciones a las que los japoneses denominan kawai, que se trata de unos personajitos chiquitos de cuerpo y una cabezota, que comprobandolo en el libro los hacer ver lindos al igual que los pastelistos y demas postres que no necesitas escalarlos solo dar enfasis a las cremas y demas ingredientes de estos postres para hacerlos tambien kawai.</p>
+						<p>Tome el modelo de una persona que se viste asi, y me parecio muy comico que siempre este enojada, este es uno de mis prospectos de personajes con una personalidad propia, ya que es muy divertida el como se enoja su expresion y sus intenciones.</p>
+						<p>Veremos como se vera con la aplicacion de vectores en ilustrator.</p>
+						<p class="related">
+						Libros recomendados<a href="http://www.amazon.com/Manga-Beginner-Kawaii-Supercute-Characters/dp/082300662X/ref=sr_1_1?s=books&ie=UTF8&qid=1404192744&sr=1-1&keywords=kawaii">Utiles para este trabajo</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-6">
+						<h2>Abstraccion<span>Del genero Zentangulo</span></h2>
+						<p>Muchos de ustedes pensaran que me he equivocado al escribir esa palabra, y que no existe bueno quizas no en español, pero si en ingles y se dice "Zentangles", esta nueva ola de genero de ilustracion para mi no es nada nuevo, pero quizas el concepto si, este tipo de dibujos solo se empieza de una forma caotica y con orden a la ves, pero eso si lo que se te ocurra, solo tienes que acotarte a los margenes de tu hoja.</p>
+									<p>Estas ilustraciones son mejores hacerlas con estilografos ya que a veces si se exige mucha presicion y los mejores en ese campo siempre han sido los estilografos, y la tinta china obviamente.</p>
+									<p>Esta tecnica da unos resultados soprendentes de verdad realmente son geniales las cosas que puedes hacer y los efectos yo claro hice mis pininos en este rubro y bueno este es uno de tantos intentos.</p>
+						<p class="related">
+						Libros recomendados<a href="http://www.amazon.com/One-Zentangle-Day-Relaxation-Inspiration/dp/1592538118/ref=sr_1_1?s=books&ie=UTF8&qid=1404193032&sr=1-1&keywords=zentangle">Utiles para este trabajo</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-7">
+						<h2>Urano<span>A base de texturas</span></h2>
+						<p>Este personaje me encanta es un ser muy muy antiguo que quizo matar a sus hijos y a otros los envio al tartaro muy buena historia </p>
+						<p>Esta hecho a base de texturas el cual fabrique con acetato.</p>			
+						<p class="related">
+						Libros recomendados<a href="http://www.amazon.com/One-Zentangle-Day-Relaxation-Inspiration/dp/1592538118/ref=sr_1_1?s=books&ie=UTF8&qid=1404193032&sr=1-1&keywords=zentangle">Utiles para este trabajo</a>
+						</p>
+					</div>
+					<!-- 
+					<div class="content" data-content="content-8">
+						<h2>Happiness <span>On self-sufficient homes and pets</span></h2>
+						<p>The casualties among the officers were tremendous—brave men who led Australia's soldiers in that awful charge! And among the bravest of them were the young officers from the Duntroon Military College that stands amid delightful country surroundings near the capital of Federated Australia that is now in the making in the Mother State of New South Wales. These young fellows fought in a way that showed their native courage and the excellence of their training. Only the year before, when Sir Ian Hamilton, as Inspector-General of the Oversea Forces, visited Australia and inspected these lads who were training for the army at Duntroon, as the representative of the Sydney Morning Herald I remember seeing them laugh and cheer when Sir Ian Hamilton, on leaving Duntroon, jokingly wished them "plenty of wars and rapid promotion." And it seems only a few days since we were dancing and flirting in a Cairo ballroom. Now many of them lie sorely wounded at the base hospital, and several will never again hear the réveillé. But the College will not forget its firstfruits offered up so gladly for empire. Officers and men, it was all the same—they went to their death with a cheer for King and Country. I heard an Imperial officer, newly returned from Flanders, say that the 3rd Australian Infantry Brigade was the finest brigade of infantry in the whole of the allied armies. In physique they were far superior to any of the British, French, or Belgian troops. Whether this be true or not, there is no doubt that the sturdy Thirds under Colonel Maclagan fought like Trojans on the Gallipoli Peninsula, and covered themselves with glory. Incidentally, I might mention, some of them never fired a shot during the fierce fighting of April 25. They simply trusted to the cold steel, and flung themselves at the Turkish trenches. The 1st Brigade (Colonel MacLaurin), the 2nd (Colonel McCay), and the rest of the Australians and New Zealanders fought with equal valour, but the brunt of the attack was borne by the Thirds. So many hundred gallant lives was a heavy price to pay for a footing in Gallipoli, but those impetuous charges, absolutely irresistible in their fury, would, we knew, bear rich fruit, for the Turks could never again withstand a bayonet charge by the Australians.</p>
+						<p>To have gone through all they had gone through, and then to treat it all so lightly, seemed an extraordinary thing. All the doctors and nurses commented on the amazing fortitude and cheerfulness of the Australian wounded. I used to think the desire to be in the thick of things, that I had so often heard expressed, was make-believe, but I know better now. I used to say myself that I "wanted to be there" (and sotto voce I used to add "I don't think"); and now, in my heart-searchings, I began to wonder if I didn't really mean it, after all. I used to strike an attitude and quote, "One crowded hour of glorious life is worth an age without a name," whilst all the time I felt in my heart that I would prefer a crowded age of glorious life to an hour of fame. Now I began to wonder whether in my heart's core, in my very heart of hearts, I did not agree with the poet. The proper study of mankind is Oneself. And what was I doing there, anyway?</p>
+						<p>And now, a hundred years after, we see French and British warships again off Alexandria. But this time the Union Jack and the Tricolour are intertwined, and in the streets of Alexandria French and British soldiers and sailors walk arm in arm, while the ancient city is gay with flags and bunting. For big things are brewing in the Levant. Before the eyes of the citizens during the past week was a unique international naval and military pageant—Zouaves, with their blue jackets and red trousers, French infantry in their blue-grey uniform, cavalry with gay tunics, British Jack Tars in blue and white, Australians in sombre khaki, swarthy-skinned Maoris from the Wonderland of the Southern Seas, and dusky warriors from the Punjab. British troops—and especially those young giants from Australia—had the better of the Frenchman in the matter of physique; but there was clear evidence of "grit" in the intelligent, humorous faces of the French, which helped one to understand why, for instance, they are said to be the finest marchers in Europe, and why the Germans never got to Paris!</p>
+						<p class="related">
+							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
+						</p>
+					</div> --> -->
+				</section>
+			</div>
+		</div><!-- /container --> 
+		<script src="js/dragdealer.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/dragslideshow.js"></script>
+		<script>
+			(function() {
+
+				var overlay = document.getElementById( 'overlay' ),
+					overlayClose = overlay.querySelector( 'button' ),
+					header = document.getElementById( 'header' )
+					switchBtnn = header.querySelector( 'button.slider-switch' ),
+					toggleBtnn = function() {
+						if( slideshow.isFullscreen ) {
+							classie.add( switchBtnn, 'view-maxi' );
+						}
+						else {
+							classie.remove( switchBtnn, 'view-maxi' );
+						}
+					},
+					toggleCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.add( header, 'hide' );
+						}
+					},
+					toggleCompleteCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.remove( header, 'hide' );
+						}
+					},
+					slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
+						// toggle between fullscreen and minimized slideshow
+						onToggle : toggleBtnn,
+						// toggle the main image and the content view
+						onToggleContent : toggleCtrls,
+						// toggle the main image and the content view (triggered after the animation ends)
+						onToggleContentComplete : toggleCompleteCtrls
+					}),
+					toggleSlideshow = function() {
+						slideshow.toggle();
+						toggleBtnn();
+					},
+					closeOverlay = function() {
+						classie.add( overlay, 'hide' );
+					};
+
+				// toggle between fullscreen and small slideshow
+				switchBtnn.addEventListener( 'click', toggleSlideshow );
+				// close overlay
+				overlayClose.addEventListener( 'click', closeOverlay );
+
+			}());
+		</script>
+	</body>
+</html>
